@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  margin: auto;
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  width: 300px;
+  height: 372px;
+  position: relative;
+}
+
+.discount{
+  background: green;
+}
+
+.discount_special{
+  background: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* i div sono in più solo come prove */
+
+div>.discount{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.heart{
+  font-size: 25px;
+  position: absolute;
+  left: 49%;
+  bottom: 2%;
+}
+
+.heart:hover{
+  cursor: pointer;
+  color: red;
+}
