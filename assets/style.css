@@ -27,7 +27,7 @@
   top: 0;
 }
 
-/* i div sono in più solo come prove */
+/* i div che sono in più solo come prove */
 
 div>.discount{
   position: absolute;
@@ -43,8 +43,9 @@ div>.discount{
   bottom: 10%;
 }
 
+/* Importante per far apparire all'hover */
 
-.heart:hover{
+.container:hover .heart{
   width: 300px;
   cursor: pointer;
   color: red;
