@@ -36,15 +36,16 @@ div>.discount{
 }
 
 .heart{
-  color: lightgrey;
+  color: #eeeeee;
+  width: 100%;
   font-size: 25px;
-  position: absolute;
-  left: 49%;
-  bottom: 2%;
-
+  position: relative;
+  bottom: 10%;
 }
 
+
 .heart:hover{
+  width: 300px;
   cursor: pointer;
   color: red;
 }
