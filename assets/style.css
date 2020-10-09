@@ -5,8 +5,8 @@
 }
 
 .row{
-  margin: auto;
   text-align: center;
+  margin: 20px;
 }
 
 .container{
@@ -36,10 +36,12 @@ div>.discount{
 }
 
 .heart{
+  color: lightgrey;
   font-size: 25px;
   position: absolute;
   left: 49%;
   bottom: 2%;
+
 }
 
 .heart:hover{
